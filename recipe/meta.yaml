@@ -1,4 +1,4 @@
-{% set version = "1.16" %}
+{% set version = "1.17" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/missMDA_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/missMDA/missMDA_{{ version }}.tar.gz
-  sha256: b543b63fb82b79e5b1f07774112159c24bca20a1d0f2f5608a58f4bd9f4faa30
+  sha256: e6d70b3ef2d30ee46a9aa90b56738c9b1c90f264021bdf4a23d8f2c96729f4ae
 
 build:
-  merge_build_host: True  # [win]
-  number: 1
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -46,12 +46,9 @@ test:
 about:
   home: https://husson.github.io/, http://juliejosse.com/
   license: GPL (>= 2)
-  summary: Imputation of incomplete continuous or categorical datasets; Missing values are imputed
-    with a principal component analysis (PCA), a multiple correspondence analysis (MCA)
-    model or a multiple factor analysis (MFA) model; Perform multiple imputation with
-    and in PCA or MCA.
+  summary: Imputation of incomplete continuous or categorical datasets; Missing values are imputed with a principal component analysis (PCA), a multiple correspondence analysis (MCA) model or a multiple factor analysis (MFA) model; Perform multiple imputation with and in PCA or MCA.
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
+  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
 
 extra:
   recipe-maintainers:
