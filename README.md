@@ -5,11 +5,9 @@ Home: https://husson.github.io/, http://juliejosse.com/
 
 Package license: GPL (>= 2)
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-missmda-feedstock/blob/master/LICENSE.txt)
 
 Summary: Imputation of incomplete continuous or categorical datasets; Missing values are imputed with a principal component analysis (PCA), a multiple correspondence analysis (MCA) model or a multiple factor analysis (MFA) model; Perform multiple imputation with and in PCA or MCA.
-
-
 
 Current build status
 ====================
