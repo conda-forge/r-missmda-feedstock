@@ -1,4 +1,4 @@
-{% set version = "1.17" %}
+{% set version = "1.18" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/missMDA_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/missMDA/missMDA_{{ version }}.tar.gz
-  sha256: e6d70b3ef2d30ee46a9aa90b56738c9b1c90f264021bdf4a23d8f2c96729f4ae
+  sha256: a522ba7dd42c9b01dc97317ee46d0084942168b7d2da7162d33357e01382f7e8
 
 build:
   merge_build_host: true  # [win]
