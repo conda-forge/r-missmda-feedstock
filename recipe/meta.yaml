@@ -45,7 +45,7 @@ test:
 
 about:
   home: https://husson.github.io/, http://juliejosse.com/
-  license: GPL (>= 2)
+  license: GPL-2.0-or-later
   summary: Imputation of incomplete continuous or categorical datasets; Missing values are imputed with a principal component analysis (PCA), a multiple correspondence analysis (MCA) model or a multiple factor analysis (MFA) model; Perform multiple imputation with and in PCA or MCA.
   license_family: GPL3
   license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
