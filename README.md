@@ -1,11 +1,11 @@
-About r-missmda
-===============
+About r-missmda-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-missmda-feedstock/blob/main/LICENSE.txt)
 
 Home: https://husson.github.io/, http://juliejosse.com/
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-missmda-feedstock/blob/main/LICENSE.txt)
 
 Summary: Imputation of incomplete continuous or categorical datasets; Missing values are imputed with a principal component analysis (PCA), a multiple correspondence analysis (MCA) model or a multiple factor analysis (MFA) model; Perform multiple imputation with and in PCA or MCA.
 
