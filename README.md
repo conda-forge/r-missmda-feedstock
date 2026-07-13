@@ -3,7 +3,7 @@ About r-missmda-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-missmda-feedstock/blob/main/LICENSE.txt)
 
-Home: https://husson.github.io/, http://juliejosse.com/
+Home: http://factominer.free.fr/missMDA/index.html
 
 Package license: GPL-2.0-or-later
 
@@ -13,10 +13,11 @@ Current build status
 ====================
 
 
-<table><tr><td>All platforms:</td>
+<table><tr>
+    <td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2578&branchName=main">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-missmda-feedstock?branchName=main">
+      <a href="https://github.com/conda-forge/r-missmda-feedstock/actions/workflows/conda-build.yml">
+        <img src="https://github.com/conda-forge/r-missmda-feedstock/actions/workflows/conda-build.yml/badge.svg?event=push&branch=main">
       </a>
     </td>
   </tr>
