@@ -3,7 +3,7 @@ About r-missmda-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-missmda-feedstock/blob/main/LICENSE.txt)
 
-Home: https://husson.github.io/, http://juliejosse.com/
+Home: http://factominer.free.fr/missMDA/index.html
 
 Package license: GPL-2.0-or-later
 
