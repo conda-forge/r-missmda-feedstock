@@ -1,15 +1,15 @@
-{% set version = "1.22" %}
+{% set version = "1.23" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
   name: r-missmda
-  version: "{{ version|replace("-", "_") }}"
+  version: {{ version|replace("-", "_") }}
 
 source:
   url:
     - {{ cran_mirror }}/src/contrib/missMDA_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/missMDA/missMDA_{{ version }}.tar.gz
-  sha256: b79941401aff2f5bdc3b7aee128804931419d2b1e7f2ddd817c0e4619a41f3d1
+  sha256: 6197e00ac77b5e96519d80860cd14e27ecd2b0d7f716083673faff204624690d
 
 build:
   number: 0
